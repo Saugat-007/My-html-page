@@ -1,0 +1,49 @@
+<html>
+  <title>Form</title>  
+  <body>
+    <h2 align="center">FILL THE FORM</h2>
+    <hr>
+          <u><h3>About Yourself</h3></u>
+    <form action="#" method="get">
+      Name= <input type="text" id="name">
+        <br>
+          <br>
+      Address= <select name="Province">
+        <option value="MP">Madhesh Pradesh</option>
+        <option value="Kar">Karnali</option>
+        <option value="Other">Other</option>
+        </select>
+         <select name="district">
+         <option value="Parsa">Parsa</option>
+         <option value="Bara">Bara</option>
+         <option value="Other">Other</option>
+         </select>
+         <br>
+           <br>
+             Gender= <input type="radio" name="Gender" value="man">Man</input>
+             <input type="radio" name="Gender" value="woman">Woman</input>
+             <input type="radio" name="Gender" value="sigma">Sigma</input>
+             
+             <br>
+               <br>
+                 Hobbies= <input type="checkbox" name="hob1" value="dancing">Dancing</input>
+                 <input type="checkbox" name="hob2" value="singing">Singing</input>
+                 <input type="checkbox" name="hob3" value="gamming">Gaming</input>
+                 <input type="checkbox" name="hob4" value="watching anime">Watching anime</input>
+                <u> <h3>What is your qualification?</h3></u>
+                 <select name="Qualification">
+                   <option value="10th pass">10th pass</option>
+                   <option value="12th fail">12th fail</option> 
+                   <option value="12th pass">12th pass</option> 
+                 </select>
+                 
+                 <br>
+                   <br>
+                     <u><h3>Any Suggestion?<h3></u>
+                     <input type="text" name="suggestion">
+                     <input type="submit" value="submit">
+                 
+         
+    </form>  
+  </body>
+</html>
